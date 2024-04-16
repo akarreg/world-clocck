@@ -1,9 +1,58 @@
 body {
+  background-color: rgb(229, 229, 240);
+}
+
+#center {
+  margin: 150px;
+  margin ;
+  display: block;
   background-color: whitesmoke;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border-radius: 30px;
 }
-h2 {
-  font-size: xx-large;
+
+#worldClock{
+  margin-left: 150px;
+  margin-top: 50px;
+  font-size: 40px;
+  text-align: center;
 }
-h1 {
-  font-size: medium;
+
+#city{
+
+  text-align: center;
+  font-size: 30px;
+  font-weight: 80px;
+   margin-left: 80px;
 }
+  
+  
+
+#cities{
+ margin-left: 30px;
+ margin-top :30px;
+ margin-bottom: 30px;
+ font-size: xx-large;
+}
+#los-angeles {
+  margin-bottom: 20px;
+}
+#astana{
+  margin-bottom: 20px;
+}
+
+
+
+footer{
+  font-size: small;
+  opacity: 0.43;
+  text-align: center;
+  text-decoration: underline;
+
+}
+
+
+
+
+
+  
