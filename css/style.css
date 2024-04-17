@@ -1,24 +1,25 @@
 body {
+  background: rgb(222, 221, 241);
   background: linear-gradient(
-    0deg,
-    rgba(34, 193, 195, 1) 0%,
-    rgba(116, 86, 23, 1) 100%
+    90deg,
+    rgba(222, 221, 241, 1) 0%,
+    rgba(205, 197, 165, 1) 17%,
+    rgba(155, 210, 221, 1) 100%
   );
 }
-
 #center {
   margin: 150px;
   display: block;
-  background-color: rgb(196, 211, 174);
+  background-color: #dad9ea;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   border-radius: 10px;
-  margin-bottom: 40px;
 }
 
 h1 {
   font-size: 40px;
   text-align: center;
   text-decoration: underline;
+  padding-bottom: 20px;
 }
 
 select {
@@ -26,7 +27,7 @@ select {
   margin-left: 10px;
   width: 95%;
   margin-right: 10px;
-  background-color: bisque;
+  background-color: #9dd1da;
   border-color: rgb(0, 0, 0);
   border-radius: 4px;
   opacity: 0.4;
@@ -41,12 +42,17 @@ h2 {
   margin-right: 35px;
   display: flex;
   justify-content: space-between;
+  border-bottom: 0.7px dashed grey;
+  padding-bottom: 10px;
+  padding-top: 5px;
 }
 #cities2 {
   margin-left: 15px;
   margin-right: 35px;
   display: flex;
   justify-content: space-between;
+  border-bottom: 0.7px dashed grey;
+  padding-bottom: 10px;
 }
 #cities3 {
   margin-left: 15px;
@@ -72,10 +78,5 @@ footer {
   opacity: 0.43;
   text-align: center;
   text-decoration: underline;
-}
-
-#town {
-  display: flex;
-  justify-content: space-between;
-  font-size: 55px;
+  padding-bottom: 25px;
 }
