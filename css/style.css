@@ -1,58 +1,54 @@
 body {
-  background-color: rgb(229, 229, 240);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(116, 86, 23, 1) 100%
+  );
 }
 
 #center {
   margin: 150px;
-  margin ;
   display: block;
-  background-color: whitesmoke;
+  background-color: rgb(196, 211, 174);
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  border-radius: 30px;
+  border-radius: 10px;
 }
 
-h1{
-  margin-left: 150px;
-  margin-top: 50px;
+h1 {
   font-size: 40px;
   text-align: center;
+  text-decoration: underline;
 }
 
-#city{
-
-  text-align: center;
-  font-size: 30px;
-  font-weight: 80px;
-   margin-left: 80px;
+#city {
+  font-size: 20px;
+  margin-left: 10px;
+  width: 95%;
+  margin-right: 10px;
+  background-color: bisque;
+  border-color: rgb(0, 0, 0);
+  border-radius: 15px;
+  opacity: 0.4;
 }
-  
-  
-
-#cities{
- margin-left: 30px;
- margin-top :30px;
- margin-bottom: 30px;
- font-size: xx-large;
-}
-#los-angeles {
-  margin-bottom: 20px;
-}
-#astana{
-  margin-bottom: 20px;
+h2 {
+  border-top: 1px dotted rgb(153, 196, 170);
+  font-size: 35px;
 }
 
+#cities {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+#date {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
 
-
-footer{
+footer {
   font-size: small;
   opacity: 0.43;
   text-align: center;
   text-decoration: underline;
-
 }
-
-
-
-
-
-  
