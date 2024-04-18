@@ -14,6 +14,8 @@ body {
 
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   border-radius: 10px;
+  border-top-color: blue;
+  border: 20px;
 }
 
 h1 {
@@ -21,6 +23,7 @@ h1 {
   text-align: center;
   text-decoration: underline;
   padding-bottom: 20px;
+  font-weight: 250;
 }
 
 select {
@@ -36,6 +39,7 @@ select {
 h2 {
   font-size: 30px;
   margin-left: 0 0 15px;
+  font-weight: 300;
 }
 
 #cities1 {
@@ -67,8 +71,9 @@ h2 {
   opacity: 0.6;
 }
 #time {
-  font-size: 30px;
+  font-size: 40px;
   margin-top: 25px;
+  font-weight: bold;
 }
 #time small {
   font-size: 10px;
