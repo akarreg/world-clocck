@@ -10,7 +10,8 @@ body {
 #center {
   margin: 150px;
   display: block;
-  background-color: #dad9ea;
+  background-color: #c8dde1;
+
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   border-radius: 10px;
 }
@@ -27,7 +28,7 @@ select {
   margin-left: 10px;
   width: 95%;
   margin-right: 10px;
-  background-color: #9dd1da;
+  background-color: #ccc5a4;
   border-color: rgb(0, 0, 0);
   border-radius: 4px;
   opacity: 0.4;
