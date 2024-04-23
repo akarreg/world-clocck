@@ -79,6 +79,9 @@ footer {
   font-size: small;
   opacity: 0.43;
   text-align: center;
-  text-decoration: underline;
+
   padding-bottom: 25px;
+}
+strong {
+  text-decoration: underline;
 }
