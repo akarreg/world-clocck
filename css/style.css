@@ -6,22 +6,20 @@ body {
     rgba(205, 197, 165, 1) 17%,
     rgba(155, 210, 221, 1) 100%
   );
+
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 #center {
   margin: 150px;
   display: block;
   background-color: #c8dde1;
-
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  border-radius: 10px;
 }
-
 h1 {
   font-size: 40px;
   text-align: center;
   text-decoration: underline;
   padding-bottom: 20px;
-  font-weight: 250;
+  font-weight: 750;
 }
 
 select {
